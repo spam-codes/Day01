@@ -28,7 +28,7 @@ def win():
     y = computer()
     if(x == y):
         print("\033[33mIt's a draw!\033[0m")
-    elif(x==1 and y ==3) or (x==3 and y ==2):
+    elif(x==1 and y ==3) or (x==3 and y ==2) or (x==2 and y==1):
         print("\033[32mHurrah! You Won!\033[0m")
     else:
         print("\033[31mYou Lose....\033[0m")    
